@@ -1,4 +1,4 @@
-### 1. Sieve of eratosthenes (python)
+### 1. [Sieve](sieve.py) of eratosthenes (python)
 
 An ancient,simple and quicker way than the brute force approach of finding all prime numbers up to a given limit.
 
