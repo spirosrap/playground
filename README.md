@@ -29,3 +29,11 @@ For large enough N, the probability that a random integer not greater than N is 
 
 ### 5. Faster implementation of Eratosthene's sieve (siever.py)
 A faster implementation from https://stackoverflow.com/a/3035188/557418
+
+### 6. Atkin's sieve (atkinsieve.py)
+* https://en.wikipedia.org/wiki/Sieve_of_Atkin
+* http://www.geeksforgeeks.org/sieve-of-atkin/
+* https://stackoverflow.com/a/1023777/557418
+* https://github.com/mccricardo/sieve_of_atkin/blob/master/sieve_of_atkin.py
+
+Atkin's sieve is supposed to run in linear time as opposed to Eratosthenes sieve (O(n*log(log(n))). However, in python this implementation is not as efficient. A more efficient language like C++ should be needed to show this, I think.
