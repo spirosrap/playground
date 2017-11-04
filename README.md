@@ -36,4 +36,4 @@ A faster implementation from https://stackoverflow.com/a/3035188/557418
 * https://stackoverflow.com/a/1023777/557418
 * https://github.com/mccricardo/sieve_of_atkin/blob/master/sieve_of_atkin.py
 
-Atkin's sieve is supposed to run in linear time as opposed to Eratosthenes sieve (O(n*log(log(n))). However, in python this implementation is not as efficient. A more efficient language like C++ should be needed to show this, I think.
+Atkin's sieve is supposed to run in linear time as opposed to Eratosthenes sieve `(O(n*log(log(n)))`. However, in python this implementation is not as efficient. A more efficient language like C++ should be needed to show this, I think.
