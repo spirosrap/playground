@@ -23,7 +23,9 @@ Note that all primes up to the largest number will be computed.
 
 For large enough N, the probability that a random integer not greater than N is prime is very close to 1 / log(N). [Prime Number theorem](https://en.wikipedia.org/wiki/Prime_number_theorem)
 
-In the image below I ran the app to calculate the average space between primes in the range `9.000.000` and `10.000.000`. You can see that it is 16.1 which is also what the natural logarithm of `10.000.000` is. This confirms the prime number theorem which states that the probability a number `(N)` is prime is `1/log(N)`
+*In the image below I ran the app to calculate the average space between primes in the range `9.000.000` and `10.000.000`. You can see that it is 16.1 which is also what the natural logarithm of `10.000.000` is. This confirms the prime number theorem which states that the probability a number `(N)` is prime is `1/log(N)`*
 
 ![img](primetheorem.png)
 
+### 5. Faster implementation of Eratosthene's sieve (siever.py)
+A faster implementation from https://stackoverflow.com/a/3035188/557418
