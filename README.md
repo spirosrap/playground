@@ -19,3 +19,9 @@ It is often erroneously reported that Euclid in his proof that primes are infini
 
 Note that all primes up to the largest number will be computed.
 
+### 4. Distribution of primes (gap.py)
+
+For large enough N, the probability that a random integer not greater than N is prime is very close to 1 / log(N). [Prime Number theorem](https://en.wikipedia.org/wiki/Prime_number_theorem)
+
+![img](primetheorem.png)
+

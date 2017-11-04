@@ -2,7 +2,7 @@
 
 from math import ceil,sqrt
 import sys
-
+import numpy as np
 def sieve(n1,n2):
 	n = n2
 	A = [True]*(n + 1)
@@ -10,14 +10,14 @@ def sieve(n1,n2):
 		if A[i]:
 			for j in range(i*i,n+1,i):
 				A[j] = False
-	return([i for i in range(len(A)) if A[i]== True and i >= n1])
+	primes = [i for i in range(len(A)) if A[i]== True and i >= n1]
+	gap = [primes[i+1] - primes[i] for i in range(len(primes) - 1)]
 
+	# Returns the average "space" between consecutive primes
+	return np.average(np.array(gap))
 
 if __name__ == "__main__":
     n1 = int(sys.argv[1])
     n2 = int(sys.argv[2])
     assert n2 > n1,"Please enter a valid range, for example 10-100"
-    try:
-    	print(sieve(n1,n2))
-    except:
-    	print("Please use the script like this \"./sieveb 100 1000")
+    print(sieve(n1,n2))
