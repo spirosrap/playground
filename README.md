@@ -9,9 +9,13 @@ An ancient,simple and quicker way than the brute force approach of finding all p
 * Find the first number greater than p in the list that is not marked. If there was no such number, stop. Otherwise, let p now equal this new number (which is the next prime), and repeat from step 3.
 * When the algorithm terminates, the numbers remaining not marked in the list are all the primes below n. (From Wikipedia)
 
+https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+
 ### 2. nth Euclid Number (euclidn.py)
 
 It is often erroneously reported that Euclid in his proof that primes are infinite begins with the assumption that the set initially considered contains all prime numbers, leading to a contradiction, or that it contains precisely the n smallest primes rather than any arbitrary finite set of primes. Today, the product of the smallest n primes plus 1 is conventionally called the nth Euclid number.(From Wikipedia)
+
+https://en.wikipedia.org/wiki/Euclid_number
 
 ![img](fig.png)
 
